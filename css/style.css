@@ -1490,7 +1490,7 @@ main.main-page{
 }
 .feedback{
     padding: 100px 0 60px;
-    background-image: url('../img/feedback.png');
+    background-image: url('../img/feedback.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
