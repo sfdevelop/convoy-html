@@ -1067,27 +1067,19 @@ main.main-page{
     }
 }
 @media (max-width: 540px) {
-    .about__box.no-mobile{
-        display: none;
-    }
-    /* .about__content-image{
-        display: flex;
-        align-items: center;
-        margin-top: 32px;
-        max-height: 432px;
-        overflow: hidden;
-    } */
     .about-brokerage .about__image{
         min-height: auto;
     }
-    /* .about__content-image img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+    .main-about .about__box{
+        display: none;
     }
-    .about__content-image + .about__content p {
-        margin-top: 60px;
-    } */
+    .main-about .about__image {
+        margin-top: 32px;
+        display: flex !important;
+    }
+    .main-about .about__image:not(:last-of-type){
+        margin-bottom: 60px;
+    }
     .about__image:not(:first-of-type){
         display: none;
     }
