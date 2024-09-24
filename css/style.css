@@ -1417,7 +1417,7 @@ main.main-page{
         font-size: 18px;
         line-height: 20px;
     }
-    .advantages__item-descr p{
+    .advantages__item p{
         text-align: center;
         display: none;
     }
@@ -1432,7 +1432,7 @@ main.main-page{
     .advantages__top p{
         text-align: center;
     }
-    .advantages__item.active .advantages__item-descr p{
+    .advantages__item.active p{
         display: block;
     }
     .advantages__item-icon svg{
