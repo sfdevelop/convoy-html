@@ -21,8 +21,3 @@ advantagesItems.forEach(item => {
       }
     });
 });
-
-AOS.init({
-  once: true,
-});
-

@@ -1,3 +1,7 @@
+AOS.init({
+  once: true,
+});
+
 const body = document.querySelector('.body');
 const burger = document.querySelector('.header__burger');
 const headerMenu = document.querySelector('.header__menu');
@@ -81,13 +85,14 @@ langSelect.addEventListener('click', () => {
 });
 
 
-document.querySelector('.popup-open').addEventListener('click', function() {
-  document.querySelector('.popup').classList.add('active');
-  document.querySelector('.body').classList.add('no-scroll');
-});
-
-document.querySelector('.popup__close').addEventListener('click', function() {
-  document.querySelector('.popup').classList.remove('active');
-  document.querySelector('.body').classList.remove('no-scroll');
-});
-
+if(document.querySelector('.popup')){
+  document.querySelector('.popup-open').addEventListener('click', function() {
+    document.querySelector('.popup').classList.add('active');
+    document.querySelector('.body').classList.add('no-scroll');
+  });
+  
+  document.querySelector('.popup__close').addEventListener('click', function() {
+    document.querySelector('.popup').classList.remove('active');
+    document.querySelector('.body').classList.remove('no-scroll');
+  });
+}
