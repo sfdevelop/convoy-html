@@ -631,7 +631,7 @@ main.main-page{
     height: 100%;
     transition: all .5s ease;
 }
-.hero__bg img{
+.hero__bg > *{
     width: 100%;
     height: 84%;
     object-fit: cover;
@@ -692,7 +692,7 @@ main.main-page{
     line-height: 44px; /* 104.762% */
     text-transform: uppercase;
 }
-.hero.animate .hero__bg img {
+.hero.animate .hero__bg > * {
     height: 100%;
     object-position: left -110px;
 }
@@ -707,7 +707,7 @@ main.main-page{
     margin-top: 24px;
 }
 @media (max-width: 1279px) {
-    .hero.animate .hero__bg img {
+    .hero.animate .hero__bg > * {
         object-position: -290px -110px;
     }
 }
@@ -728,16 +728,16 @@ main.main-page{
     }
 }
 @media (max-width: 767px) {
-    .hero.animate .hero__bg img {
+    .hero.animate .hero__bg > * {
         object-position: -430px -110px;
     }
 }
 @media (max-width: 540px) {
-    .hero__bg img {
+    .hero__bg > * {
         object-position: 42% -17px;
         height: 70%;
     }
-    .hero.animate .hero__bg img {
+    .hero.animate .hero__bg > * {
         object-position: 31% -17px;
     }
     .hero__block{
@@ -872,7 +872,7 @@ main.main-page{
 @media (max-width: 768px) {
     .our-services__content-image{
         height: 700px;
-        background-image: url('../img/our-services/our-services-bg-2.jpg');
+        background-image: url('../img/our-services/our-services-bg-2.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2279,7 +2279,7 @@ main.main-page{
     background: linear-gradient(2deg, #011318 36.53%, rgba(1, 19, 24, 0.00) 94.26%);
     height: 292px;
 }
-.price .hero__bg img{
+.price .hero__bg > *{
     height: 88%;
     object-position: top;
     width: 90%;
@@ -2290,7 +2290,7 @@ main.main-page{
 .price.hero.animate .hero__bg {
     height: 100%;
 }
-.price.hero.animate .hero__bg img {
+.price.hero.animate .hero__bg > * {
     height: 100%;
     width: 100%;
     object-position: top;
@@ -2299,19 +2299,19 @@ main.main-page{
     gap: 32px;
 }
 @media (max-width: 767px) {
-    .price .hero__bg img {
+    .price .hero__bg > * {
         height: 70%;
         width: 80%;
         object-position: 90%;
     }
-    .price.hero.animate .hero__bg img {
+    .price.hero.animate .hero__bg > * {
         height: 100%;
         width: 100%;
         object-position: 60%;
     }
 }
 @media (max-width: 540px) {
-    .price.hero.animate .hero__bg img{
+    .price.hero.animate .hero__bg > *{
         object-position: 75%;
     }
 }
@@ -2968,7 +2968,7 @@ main.main-page{
     background: linear-gradient(2deg, #011318 36.53%, rgba(1, 19, 24, 0.00) 94.26%);
     height: 450.33px;
 }
-.services .hero__bg img{
+.services .hero__bg > *{
     height: 88%;
     object-position: top;
     width: 90%;
@@ -2979,7 +2979,7 @@ main.main-page{
 .services.hero.animate .hero__bg {
     height: 100%;
 }
-.services.hero.animate .hero__bg img {
+.services.hero.animate .hero__bg > * {
     height: 100%;
     width: 100%;
     object-position: 18%;
@@ -3135,7 +3135,7 @@ main.main-page{
     background: linear-gradient(2deg, #011318 36.53%, rgba(1, 19, 24, 0.00) 94.26%);
     height: 347.205px;
 }
-.transportation-ukraine .hero__bg img{
+.transportation-ukraine .hero__bg > *{
     height: 88%;
     object-position: top;
     width: 90%;
@@ -3146,7 +3146,7 @@ main.main-page{
 .transportation-ukraine.hero.animate .hero__bg {
     height: 108%;
 }
-.transportation-ukraine.hero.animate .hero__bg img {
+.transportation-ukraine.hero.animate .hero__bg > * {
     height: 100%;
     width: 100%;
     object-position: left;
@@ -3155,12 +3155,12 @@ main.main-page{
     gap: 32px;
 }
 @media (max-width: 767px) {
-    .transportation-ukraine .hero__bg img {
+    .transportation-ukraine .hero__bg > * {
         height: 70%;
         width: 80%;
         object-position: 90%;
     }
-    .transportation-ukraine.hero.animate .hero__bg img {
+    .transportation-ukraine.hero.animate .hero__bg > * {
         height: 100%;
         width: 100%;
         object-position: 60%;
@@ -3172,7 +3172,7 @@ main.main-page{
     background: linear-gradient(2deg, #011318 36.53%, rgba(1, 19, 24, 0.00) 94.26%);
     height: 292px;
 }
-.brokerage .hero__bg img{
+.brokerage .hero__bg > *{
     height: 88%;
     object-position: top;
     width: 90%;
@@ -3183,7 +3183,7 @@ main.main-page{
 .brokerage.hero.animate .hero__bg {
     height: 108%;
 }
-.brokerage.hero.animate .hero__bg img {
+.brokerage.hero.animate .hero__bg > * {
     height: 100%;
     width: 100%;
     object-position: left;
@@ -3193,12 +3193,12 @@ main.main-page{
     max-width: 876px;
 }
 @media (max-width: 767px) {
-    .brokerage .hero__bg img {
+    .brokerage .hero__bg > * {
         height: 70%;
         width: 80%;
         object-position: 90%;
     }
-    .brokerage.hero.animate .hero__bg img {
+    .brokerage.hero.animate .hero__bg > * {
         height: 100%;
         width: 100%;
         object-position: center;
@@ -3211,7 +3211,7 @@ main.main-page{
     background: linear-gradient(2deg, #011318 36.53%, rgba(1, 19, 24, 0.00) 94.26%);
     height: 292px;
 }
-.our-fleet .hero__bg img {
+.our-fleet .hero__bg > * {
     height: 78%;
     object-position: bottom;
     width: 79%;
@@ -3222,7 +3222,7 @@ main.main-page{
 .our-fleet.hero.animate .hero__bg {
     height: 100%;
 }
-.our-fleet.hero.animate .hero__bg img {
+.our-fleet.hero.animate .hero__bg > * {
     height: 100%;
     width: 100%;
     object-position: left -180px;
@@ -3235,12 +3235,12 @@ main.main-page{
     margin-top: 24px;
 }
 @media (max-width: 767px) {
-    .our-fleet .hero__bg img {
+    .our-fleet .hero__bg > * {
         height: 70%;
         width: 80%;
         object-position: 90%;
     }
-    .our-fleet.hero.animate .hero__bg img {
+    .our-fleet.hero.animate .hero__bg > * {
         height: 100%;
         width: 100%;
         object-position: center;
